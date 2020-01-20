@@ -80,6 +80,10 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
     @Override
     public void onNoteClick(int position) {
         Intent intent = new Intent(this, DetailActivity.class);
+        intent.putExtra("image_url", mImageUrls.get(position));
+        intent.putExtra("image_name", mNames.get(position));
+        intent.putExtra("image_message", mMessage.get(position));
+
         startActivity(intent);
         Toast.makeText(this, "FUNCIONOU: " + mNames.get(position), Toast.LENGTH_SHORT).show();
     }
