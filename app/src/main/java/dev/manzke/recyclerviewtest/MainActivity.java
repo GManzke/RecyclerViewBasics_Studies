@@ -35,36 +35,32 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
 
     private void initImageBitmaps(){
         Log.d(TAG, "initImageBitmaps: preparing bitmaps.");
-        mImageUrls.add("https://i.imgur.com/QJ2XxDe.jpg");
-        mNames.add("Pedro Lucas");
-        mMessage.add("Me nota pf");
-        mImageUrls.add("https://i.imgur.com/HXQOv9Q.jpg");
-        mNames.add("Pedro Lucas 2");
-        mMessage.add("Me nota pf");
-        mImageUrls.add("https://i.imgur.com/4Hr2s5C.jpg");
-        mNames.add("Pedro Lucas 3");
-        mMessage.add("Me nota pf");
-        mImageUrls.add("https://i.imgur.com/lvxTpZo.jpg");
-        mNames.add("Pedro Lucas 4");
-        mMessage.add("Me nota pf");
-        mImageUrls.add("https://i.imgur.com/41vgGOa.jpg");
-        mNames.add("Pedro Lucas 5");
-        mMessage.add("Me nota pf");
-        mImageUrls.add("https://i.imgur.com/QJ2XxDe.jpg");
-        mNames.add("Pedro Lucas 6");
-        mMessage.add("Me nota pf");
-        mImageUrls.add("https://i.imgur.com/HXQOv9Q.jpg");
-        mNames.add("Pedro Lucas 7");
-        mMessage.add("Me nota pf");
-        mImageUrls.add("https://i.imgur.com/4Hr2s5C.jpg");
-        mNames.add("Pedro Lucas 8");
-        mMessage.add("Me nota pf");
-        mImageUrls.add("https://i.imgur.com/lvxTpZo.jpg");
-        mNames.add("Pedro Lucas 9");
-        mMessage.add("Me nota pf");
-        mImageUrls.add("https://i.imgur.com/41vgGOa.jpg");
-        mNames.add("Pedro Lucas 10");
-        mMessage.add("Me nota pf");
+
+        mImageUrls.add("https://i.redd.it/xob7iy25rez01.jpg");
+        mNames.add("Teste");
+        mMessage.add("Teste 2");
+        mImageUrls.add("https://i.redd.it/xob7iy25rez01.jpg");
+        mNames.add("Teste");
+        mMessage.add("Teste 2");
+        mImageUrls.add("https://i.redd.it/xob7iy25rez01.jpg");
+        mNames.add("Teste");
+        mMessage.add("Teste 2");
+        mImageUrls.add("https://i.redd.it/xob7iy25rez01.jpg");
+        mNames.add("Teste");
+        mMessage.add("Teste 2");
+        mImageUrls.add("https://i.redd.it/xob7iy25rez01.jpg");
+        mNames.add("Teste");
+        mMessage.add("Teste 2");
+        mImageUrls.add("https://i.redd.it/xob7iy25rez01.jpg");
+        mNames.add("Teste");
+        mMessage.add("Teste 2");
+        mImageUrls.add("https://i.redd.it/xob7iy25rez01.jpg");
+        mNames.add("Teste");
+        mMessage.add("Teste 2");
+        mImageUrls.add("https://i.redd.it/xob7iy25rez01.jpg");
+        mNames.add("Teste");
+        mMessage.add("Teste 2");
+
 
         initRecyclerView();
     }
