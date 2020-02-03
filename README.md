@@ -1,1 +1,1 @@
-# RecyclerViewTest
+# RecyclerView_Studies
